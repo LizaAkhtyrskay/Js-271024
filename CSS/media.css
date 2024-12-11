@@ -1,4 +1,12 @@
+
+@media screen and (max-width: 1920px) {
+    #hamburger {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1200px) {
+   
      /* Menu */
      .logo {
         height: 50px;
