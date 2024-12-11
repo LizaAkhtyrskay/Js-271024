@@ -12,12 +12,13 @@ menuElementLinks.forEach( element =>{
         const linkHref = this.getAttribute("href");
         const hrefElement = document.getElementById(linkHref.replace("#", ""));
 
-        const paddingTop = parseInt(getComputedStyle(document.querySelector('#interests')).paddingTop);
+        const paddingTop = parseInt(getComputedStyle(document.querySelector('#achievements')).paddingTop);
 
         window.scroll({
             behavior: 'smooth',
             left: 0,
-            top: hrefElement.offsetTop - paddingTop - menuHeight
+            // top: hrefElement.offsetTop - paddingTop - menuHeight
+            top: hrefElement.offsetTop - paddingTop*3
         });
 
         document.querySelector(".menu-element__link.active").classList.remove('active');
