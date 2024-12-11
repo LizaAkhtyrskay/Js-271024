@@ -93,8 +93,12 @@ a.link{
     clip-path: circle(50% at 50% 50%);
    }
 
-.logo:hover{
+/* .logo:hover{
     animation: rotate360 5s linear infinite;
+} */
+
+.logo.animated {
+    animation: rotate360 7s linear infinite;
 }
 
 .home{

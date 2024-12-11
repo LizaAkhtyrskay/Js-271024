@@ -1,3 +1,8 @@
+window.addEventListener('DOMContentLoaded', () => {
+    const logo = document.querySelector('.logo');
+    logo.classList.add('animated'); // Добавляем класс с анимацией при загрузке страницы
+});
+
 const menuElementLinks = document.querySelectorAll(".menu-element__link");
 const menuHeight = document.querySelector(".header-top").clientHeight;
 
