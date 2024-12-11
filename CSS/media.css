@@ -94,10 +94,11 @@
 
     .about-me__title{
         font-size: 24px;
-    }
+        text-align: center;    }
 
-    .about-me__description, ul.about-me__extra {
+    .about-me__discription, ul.about-me__extra {
         font-size: 16px;
+        text-align: center;
     }
 
     .about-me__extra-icon {
@@ -274,6 +275,7 @@
         height: 25px;
     }
 
+  
     .skills-wrapper{
         flex-direction: column;
     }
@@ -328,6 +330,7 @@
     .description span {
         white-space: nowrap;
     }
+
     /* About me */
     .about-me {
         padding: 40px 10px;
@@ -349,38 +352,43 @@
         width: 100%;
         height: 100%;
     }
-/* Skills */
-.skills-wrapper .right {
-    display: none;
-}
 
-.skills-wrapper .left {
-    width: 100%;
-    max-width: 100%;
-    padding-right: 0;
-}
+    .about-me__description{
+        text-align: center;
+    }
 
-.skills-list__row {
-    flex-direction: column;
-}
+    /* Skills */
+    .skills-wrapper .right {
+        display: none;
+    }
 
-.skills-list__element {
-    width: 100%;
-    max-width: 100%;
-}
+    .skills-wrapper .left {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
 
-.skills-list__element > *:first-child {
-    max-height: 90%;
-}
-/* Интересы */
-.interests-wrapper {
-    width: 100%;
-}
-/* Обратная связь */
-.input-wrapper {
-    width: 100%;
-    margin-bottom: 10px;
-}
+    .skills-list__row {
+        flex-direction: column;
+    }
+
+    .skills-list__element {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .skills-list__element > *:first-child {
+        max-height: 90%;
+    }
+    /* Интересы */
+    .interests-wrapper {
+        width: 100%;
+    }
+    /* Обратная связь */
+    .input-wrapper {
+        width: 100%;
+        margin-bottom: 10px;
+    }
     /* Общие стили */
     .slider {
         max-width: 95%;
