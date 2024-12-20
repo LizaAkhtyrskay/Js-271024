@@ -673,12 +673,17 @@ a.link{
     align-items: center;
     border: solid 1px var(--color-darkblue);
     margin: 10px;
+    padding: 10px;
 }
 
 .work-block p{
     font-size: 20px;
     font-weight: bold;
     color: var(--color-darkblue);
+}
+
+.work-block img{
+   height: 240px;
 }
 
 
